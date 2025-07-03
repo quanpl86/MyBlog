@@ -72,21 +72,6 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="js/home.js"></script>
 
-    <!-- 
-      *** THAY ĐỔI Ở ĐÂY: Thêm script khởi tạo Widget ***
-      Đoạn script này sẽ kiểm tra URL, nếu có token mời, nó sẽ mở popup để tạo mật khẩu.
-    -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
 
 </body>
 </html>
