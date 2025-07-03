@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- CONFIGURATION ---
     // !!! QUAN TRỌNG: Hãy thay đổi các giá trị này cho đúng với repo của bạn
-    const GITHUB_USERNAME = 'YourUsername'; // Thay bằng tên người dùng GitHub của bạn
-    const GITHUB_REPO = 'your-repo-name';   // Thay bằng tên repository của bạn
+    const GITHUB_USERNAME = 'quanpl86'; // Thay bằng tên người dùng GitHub của bạn
+    const GITHUB_REPO = 'MyBlog';   // Thay bằng tên repository của bạn
 
     // --- DOM ELEMENTS & STATE ---
     const blogGrid = document.getElementById('blog-grid');
